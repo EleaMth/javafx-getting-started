@@ -6,7 +6,7 @@ import javafx.scene.chart.XYChart;
 import javafx.scene.layout.VBox;
 
 public class MyChart extends VBox {
-    public LineChart buildSampleLineChart() {
+    public LineChart buildSampleLineChart() { //constructor
         XYChart.Series<Double, Double> series = new XYChart.Series<>();
         series.getData().add(new XYChart.Data<>(0.0, 0.0));
         series.getData().add(new XYChart.Data<>(0.7, 0.5));
