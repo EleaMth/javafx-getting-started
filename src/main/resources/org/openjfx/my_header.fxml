@@ -9,10 +9,7 @@
 
 <fx:root type="javafx.scene.layout.VBox" xmlns:fx="http://javafx.com/fxml">
 <TextField fx:id="textField"/>
-    xmlns:fx="http://javafx.com/fxml"
-    fx:controller="org.openjfx.MyHeader"
-    prefHeight="400.0" prefWidth="600.0">
     <Label text="test text"/>
-<Button text="Click Me"/>
+    <Button text="Click Me" />
 </fx:root>
 
